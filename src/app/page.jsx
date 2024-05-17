@@ -1,9 +1,10 @@
+import Navbar from '@/Components/Navbar/page'
 import React from 'react'
 
 export default function Home() {
   return (
     <div>
-      Movie Box Loading...
+      <Navbar/>
     </div>
   )
 }
