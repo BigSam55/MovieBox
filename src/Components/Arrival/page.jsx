@@ -2,13 +2,9 @@
 import React from 'react'
 import style from "./page.module.css"
 import { IoIosArrowForward } from "react-icons/io";
-
-// Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
-// Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/navigation';
-// import required modules
 import { Navigation } from 'swiper/modules';
 import Image from 'next/image';
 
