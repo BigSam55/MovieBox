@@ -95,11 +95,11 @@ navigation={true}
           </div>
           <div className={style.icon}>
           <div className={style.ccf}>
-            <Image src={"/image/imdb_logo-removebg-preview.png"} width={50} height={45}/><span className={style.rating}>{movie.rating1}</span>
+            <Image src={"/image/imdb_logo-removebg-preview.png"} width={50} height={45} alt='icon'/><span className={style.rating}>{movie.rating1}</span>
           </div>
 
           <div className={style.tomato}>
-            <Image src={"/image/mini-tomato.png"} width={22} height={22}/><span className={style.rating}>{movie.rating2}</span>
+            <Image src={"/image/mini-tomato.png"} width={22} height={22} alt='icon'/><span className={style.rating}>{movie.rating2}</span>
           </div>
           
           </div>
