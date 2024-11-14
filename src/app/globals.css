@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* border: solid 1px red; */
+    
+}
+
+.swiper-button-next,
+.swiper-button-prev
+{
+    --swiper-navigation-size: 30px;
+    --swiper-navigation-top-offset: 40%;
+    --swiper-navigation-sides-offset: 20px;
+    --swiper-navigation-color: rgb(152, 157, 167);
+}
+

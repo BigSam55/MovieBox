@@ -1,0 +1,234 @@
+.nav{
+    position: sticky;
+    padding: 0.5rem 0.5rem;
+
+}
+.navContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: transparent;
+    padding: .1rem .1rem;
+}
+
+.tv{
+    color: white;
+    font-size: 2rem;
+    position: relative;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+.play{
+    position: absolute;
+    color: #ffffff;
+    font-size: 1rem;
+    transform: translate(-50%, -50%);
+    top: 54%;
+    left: 50%;
+   
+
+}
+.logContent{
+    background-color: rgb(236, 8, 58) ;
+    width: 42px;
+    height: 42px;
+    border-radius: 100%;
+    position: relative;
+    padding: .3rem;
+    border: none;
+   
+   
+}
+.logo{
+    background-color:  rgb(225,29,72);
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 100%;
+    padding: .3rem;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+
+.searchContainer {
+    display: flex;
+    align-items: center;
+    width: 45%;
+  }
+  
+  .searchInput {
+    width: 100%;
+    height: 1rem;
+    padding: .6rem;
+    border: solid 2px white;
+    color: white;
+    background-color: transparent;
+    border-radius: 10px;
+  }
+  
+  .searchIcon {
+    position: absolute;
+    right:  22rem; 
+    cursor: pointer;
+    color: white;
+  }
+  .searchInput::placeholder {
+    color: white; 
+    font-size: 1rem;
+    padding: .8rem;
+  }
+.logotext h3{
+    margin-left: -10rem;
+    text-align: center;
+    color: white;
+}
+.login{
+    color:  white;
+    display: inline-flex;
+    padding: .5rem;
+
+}
+.login p{
+    font-size: 1.2rem;
+}
+.hambuger{
+    background-color: rgb(225,29,72) ;
+    width: 18px;
+    height: 18px;
+    font-size: 1.2rem;
+    border-radius: 50%;
+    padding: .3rem;
+    margin-left: 12px;
+    
+}
+
+
+@media only screen and (max-width: 1024px){
+    .logotext h3{
+        margin-left: -4rem;
+    }
+    .searchContainer{
+        width: 40%;
+    }
+    .hambuger{
+        width: 20px;
+        height: 20px;
+    }
+    .searchInput::placeholder{
+        font-size: .8rem;
+    }
+    .searchIcon{
+        right: 21rem;
+        font-size: 12px;
+    }
+    .navContent{
+        padding: .5rem 0.8rem;
+    }
+    .searchInput{
+        padding: .2rem .4rem; 
+    }
+}
+@media only screen and (max-width: 920px){
+    .logotext h3{
+        margin-left: -25rem;
+    }
+    .searchContainer{
+        display: none;
+    }
+    .navContent{
+        padding: .7rem 1rem;
+        justify-content: space-around;
+    }
+  .login p{
+    display: none;
+  }
+}
+@media only screen and (max-width: 830px){
+    .logotext h3{
+        margin-left: -21rem;
+    }
+   
+}
+@media only screen and (max-width: 780px){
+    .logotext h3{
+        margin-left: -19rem;
+    }
+   
+}
+@media only screen and (max-width: 600px){
+    .logotext h3{
+        margin-left: -15rem;
+        font-size: 1rem;
+    }
+   .navContent{
+    padding:1rem 3rem;
+    justify-content: space-between;
+   }
+}
+@media only screen and (max-width: 425px){
+    .logotext h3{
+        margin-left: -11rem;
+    }
+   .navContent{
+    padding:1rem 1.5rem;
+   }
+   .logo{
+    width: 20px;
+    height: 20px;
+    padding: .5rem .5rem;
+   }
+   .logotext h3{
+    font-size: 1rem;
+   }
+}
+@media only screen and (max-width: 400px){
+    .logotext h3{
+        margin-left: -9rem;
+    }
+   
+}
+@media only screen and (max-width: 375px){
+    .logotext h3{
+        margin-left: -10rem;
+        font-size: 14px;
+    }
+   .navContent{
+    padding: .5rem .7rem;
+   }
+   .logo{
+    width: 15px;
+    height: 15px;
+   }
+   
+}
+@media only screen and (max-width: 360px){
+    .logotext h3{
+        margin-left: -9.4rem;
+       
+    }
+   
+   
+}
+@media only screen and (max-width: 320px){
+    .logotext h3{
+        margin-left: -8rem;
+        font-size: 12px;
+       
+    }
+    .navContent{
+        padding: .7rem .5rem;
+       }
+       .logo{
+        width: 1rem;
+        height: 1rem;
+       }
+   
+   
+}

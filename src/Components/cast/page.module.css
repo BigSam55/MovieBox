@@ -1,0 +1,44 @@
+.top{
+    display: flex;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    padding-left: 4rem;
+    padding-right: 2.5rem;
+    /* justify-content: space-between; */
+    gap: 53.8rem;
+    box-sizing: border-box;
+
+}
+
+.btn{
+    padding: 1rem 1rem;
+    text-align: center;
+    font-size: 1.2rem;
+    display: flex;
+    color: rgb(190, 18,60);
+    background-color: white;
+    border: none;
+}
+.arrow{
+    font-size: 1.5rem;
+}
+.btn:hover .arrow{
+    margin-left: 4px;
+}
+
+.swipContainer{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.mContent{
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: .5rem;
+    padding-bottom: 2rem;
+}
+.mtext{
+    margin-top: 5px;
+    font-size: 1rem;
+}
