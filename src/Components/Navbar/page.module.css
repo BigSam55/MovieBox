@@ -110,125 +110,28 @@
 }
 
 
-@media only screen and (max-width: 1024px){
-    .logotext h3{
-        margin-left: -4rem;
-    }
-    .searchContainer{
-        width: 40%;
-    }
-    .hambuger{
-        width: 20px;
-        height: 20px;
-    }
-    .searchInput::placeholder{
-        font-size: .8rem;
-    }
-    .searchIcon{
-        right: 21rem;
-        font-size: 12px;
-    }
-    .navContent{
-        padding: .5rem 0.8rem;
-    }
-    .searchInput{
-        padding: .2rem .4rem; 
-    }
-}
-@media only screen and (max-width: 920px){
-    .logotext h3{
-        margin-left: -25rem;
+@media  (max-width: 640px){
+    .logotext h3 {
+      margin-left: -7.5rem;
     }
     .searchContainer{
         display: none;
     }
+    .login p{
+        display: none;
+    }
+    .hambuger{
+        width: 25px;
+        height: 25px;
+    }
+   
+   
     .navContent{
-        padding: .7rem 1rem;
-        justify-content: space-around;
-    }
-  .login p{
-    display: none;
-  }
-}
-@media only screen and (max-width: 830px){
-    .logotext h3{
-        margin-left: -21rem;
+        justify-content: space-between;
+        padding: .5rem 0.8rem;
     }
    
 }
-@media only screen and (max-width: 780px){
-    .logotext h3{
-        margin-left: -19rem;
-    }
-   
-}
-@media only screen and (max-width: 600px){
-    .logotext h3{
-        margin-left: -15rem;
-        font-size: 1rem;
-    }
-   .navContent{
-    padding:1rem 3rem;
-    justify-content: space-between;
-   }
-}
-@media only screen and (max-width: 425px){
-    .logotext h3{
-        margin-left: -11rem;
-    }
-   .navContent{
-    padding:1rem 1.5rem;
-   }
-   .logo{
-    width: 20px;
-    height: 20px;
-    padding: .5rem .5rem;
-   }
-   .logotext h3{
-    font-size: 1rem;
-   }
-}
-@media only screen and (max-width: 400px){
-    .logotext h3{
-        margin-left: -9rem;
-    }
-   
-}
-@media only screen and (max-width: 375px){
-    .logotext h3{
-        margin-left: -10rem;
-        font-size: 14px;
-    }
-   .navContent{
-    padding: .5rem .7rem;
-   }
-   .logo{
-    width: 15px;
-    height: 15px;
-   }
-   
-}
-@media only screen and (max-width: 360px){
-    .logotext h3{
-        margin-left: -9.4rem;
-       
-    }
+
    
    
-}
-@media only screen and (max-width: 320px){
-    .logotext h3{
-        margin-left: -8rem;
-        font-size: 12px;
-       
-    }
-    .navContent{
-        padding: .7rem .5rem;
-       }
-       .logo{
-        width: 1rem;
-        height: 1rem;
-       }
-   
-   
-}

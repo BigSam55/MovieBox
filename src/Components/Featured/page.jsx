@@ -81,6 +81,12 @@ export default function Feature() {
           modules={[Navigation]}
           spaceBetween={-50}
           slidesPerView={4}
+          // breakpoints={{
+          //   640: { slidesPerView: 2 },
+          //   768: { slidesPerView: 2 },
+          //   1024: { slidesPerView: 3 },
+          //   1280: { slidesPerView: 4 },
+          // }}
         >
           {movies.map((movie, index) => (
             <SwiperSlide key={index}>

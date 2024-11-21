@@ -14,3 +14,14 @@
     --swiper-navigation-color: rgb(152, 157, 167);
 }
 
+
+@media (max-width: 640px) {
+    .swiper-button-next,
+.swiper-button-prev
+    {
+        --swiper-navigation-size: 15px;
+        --swiper-navigation-top-offset: 38%;
+        --swiper-navigation-sides-offset: 3px;
+        --swiper-navigation-color: rgb(3, 24, 66);
+    }
+}

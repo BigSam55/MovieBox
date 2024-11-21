@@ -4,8 +4,8 @@
     padding-bottom: 1rem;
     padding-left: 4rem;
     padding-right: 2.5rem;
-    /* justify-content: space-between; */
-    gap: 53.8rem;
+    align-items: center;
+    justify-content: space-between;
     box-sizing: border-box;
 
 }
@@ -41,4 +41,56 @@
 .mtext{
     margin-top: 5px;
     font-size: 1rem;
+}
+
+/* mobile screen */
+@media (max-width: 640px) {
+   
+    .top{
+        flex-direction: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: .5rem 0rem .5rem 1rem;
+        font-size: .45rem;
+     
+    }
+    .btn{
+        font-size: .7rem;
+        padding: 0.5rem 0.5rem;
+        
+    }
+   .arrow{
+    font-size: 0.9rem ;
+   }
+    .mSwiper {
+        padding: 0.4rem;
+      }
+      .mContent {
+        padding: 0rem 3.2rem 0rem 0.5rem;
+      }
+      .mImage img {
+        width: 100% !important;
+        height: 100%;
+      }
+      
+    .icon{
+        display: none;
+        align-items: center;
+        box-sizing: border-box;
+
+        
+    }
+    
+    .mContent h6{
+        font-size: .3rem;
+        margin-top: 0px;
+        
+    }
+    .mContent h4{
+        margin-top: 1px;
+        font-size: 0.4rem;
+        font-weight: bold;
+        margin-bottom: 1px;
+    }
+   
 }

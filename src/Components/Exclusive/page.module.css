@@ -1,14 +1,14 @@
 .top{
-    display: flex;
-    padding-top: 3rem;
-    padding-bottom: 1rem;
-    padding-left: 4rem;
-    padding-right: 2.5rem;
-    box-sizing: border-box;
-    gap: 52.5rem;
+  display: flex;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+  padding-left: 4rem;
+  padding-right: 2.5rem;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
 
 }
-
 .btn{
     padding: 1rem 1rem;
     text-align: center;
@@ -51,4 +51,46 @@
   top: 40%;
   right: 50%;
   color: white;
+}
+
+/* mobile screen */
+@media (max-width: 640px) {
+   
+  .top{
+    flex-direction: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem 0rem .5rem 1rem;
+    font-size: .45rem;
+ 
+}
+.btn{
+    font-size: .7rem;
+    padding: 0.5rem 0.5rem;
+    
+}
+.arrow{
+font-size: 0.9rem ;
+}
+  .mSwiper {
+      padding: 0.5rem;
+    }
+    
+    .mImage img {
+      width: 100% !important;
+      height: 100px;
+    }
+  
+ 
+  .mContent h4{
+      margin-top: 1px;
+      font-size: 0.4rem;
+      font-weight: bold;
+      margin-bottom: 1px;
+  }
+  .mBtn{
+    font-size: 2rem;
+    top: 30%;
+    right: 50%;
+  }
 }
